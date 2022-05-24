@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>国立故宮博物館</title>
+    <link rel="stylesheet" href="assets/css/chineseCupid_page_style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Monofett&display=swap"
+      rel="stylesheet"
+    />
+    <script src="jquery.js"></script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul class="navbar_logo">
+        <li>
+          <a href="http://127.0.0.1:5500/index.html"
+            ><img src="assets/images/home-icon-2.png" alt="home-logo"
+          /></a>
+        </li>
+      </ul>
+
+      <ul class="page_label">
+        <div class="label_div">
+          <a href=""
+            ><li
+              class="navbar_page_label-button"
+              onmouseover="mouseOverStation()"
+              onmouseout="mouseOutStation()"
+            ></li>
+          </a>
+          <p class="label_station">新北投駅</p>
+        </div>
+        <div class="label_div">
+          <a href=""
+            ><li
+              class="navbar_page_label-button"
+              onmouseover="mouseOverLibrary()"
+              onmouseout="mouseOutLibrary()"
+            ></li>
+          </a>
+          <p class="label_Library">北投図書館</p>
+        </div>
+        <div class="label_div">
+          <a href=""
+            ><li
+              class="navbar_page_label-button"
+              onmouseover="mouseOverSpaMuseum()"
+              onmouseout="mouseOutSpaMuseum()"
+            ></li>
+          </a>
+          <p class="label_SpaMuseum">北投温泉博物館</p>
+        </div>
+        <div class="label_div">
+          <a href=""
+            ><li
+              class="navbar_page_label-button"
+              onmouseover="mouseOverPlumBossom()"
+              onmouseout="mouseOutPlumBossom()"
+            ></li>
+          </a>
+          <p class="label_PlumBossom">梅庭</p>
+        </div>
+        <div class="label_div">
+          <a href=""
+            ><li
+              class="navbar_page_label-button"
+              onmouseover="mouseOverNationalPalaceMuseum()"
+              onmouseout="mouseOutNationalPalaceMuseum()"
+            ></li>
+          </a>
+          <p class="label_NationalPalaceMuseum">国立故宮博物館</p>
+        </div>
+        <div class="label_div">
+          <a href=""
+            ><li
+              class="navbar_page_label-button"
+              onmouseover="mouseOverKnowledgeGod()"
+              onmouseout="mouseOutKnowledgeGod()"
+            ></li>
+          </a>
+          <p class="label_KnowledgeGod">文昌宮</p>
+        </div>
+        <div class="label_div">
+          <a href=""
+            ><li
+              class="navbar_page_label-button"
+              onmouseover="mouseOverPocketMuseum()"
+              onmouseout="mouseOutPocketMuseum()"
+            ></li>
+          </a>
+          <p class="label_PocketMuseum">袖珍博物館</p>
+        </div>
+        <div class="label_div">
+          <a href=""
+            ><li
+              class="navbar_page_label-button"
+              onmouseover="mouseOverConfucius()"
+              onmouseout="mouseOutConfucius()"
+            ></li>
+          </a>
+          <p class="label_Confucius">孔子廟</p>
+        </div>
+        <div class="label_div">
+          <a href=""
+            ><li
+              class="navbar_page_label-button"
+              onmouseover="mouseOverChineseCupid()"
+              onmouseout="mouseOutChineseCupid()"
+            ></li>
+          </a>
+          <p class="label_ChineseCupid">霞海城隍廟</p>
+        </div>
+        <div class="label_div">
+          <a href=""
+            ><li
+              class="navbar_page_label-button"
+              onmouseover="mouseOver207Museum()"
+              onmouseout="mouseOut207Museum()"
+            ></li>
+          </a>
+          <p class="label_207Museum">207博物館</p>
+        </div>
+        <div class="label_div">
+          <a href=""
+            ><li
+              class="navbar_page_label-button"
+              onmouseover="mouseOverMazu()"
+              onmouseout="mouseOutMazu()"
+            ></li>
+          </a>
+          <p class="label_Mazu">天后宮</p>
+        </div>
+      </ul>
+
+      <ul class="navbar_list-button" onclick="navbarListButton()">
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </nav>
+    <aside class="aside">
+      <ul class="aside_text">
+        <li><a href="http://127.0.0.1:5500/index.html">ホームページ</a></li>
+        <li></li>
+        <li><a href="http://127.0.0.1:5500/list.html">List 目次</a></li>
+        <li></li>
+        <li><a href="">制作計画書について</a></li>
+      </ul>
+    </aside>
+
+    <main class="main">
+      <ul class="main_aside">
+        <li class="main_aside_note">
+          <img src="assets/images/chineseCupid_image/note.png" alt="note" />
+          <div>
+            <p class="note_title">霞海城隍廟</p>
+            <p class="note_date">日付：　2021/11/05</p>
+            <p class="note_annotation_title">スタンプ注釈：</p>
+            <p class="note_annotation_word">
+              スタンプを収集ながら、運命の人をもらうように祈っている。
+            </p>
+          </div>
+        </li>
+      </ul>
+
+      <ul class="main_stamp">
+        <input type="radio" id="stamp_control-1" name="control" checked />
+        <input type="radio" id="stamp_control-2" name="control" />
+        <input type="radio" id="stamp_control-3" name="control" />
+        <input type="radio" id="stamp_control-4" name="control" />
+        <input type="radio" id="stamp_control-5" name="control" />
+        <input type="radio" id="stamp_control-6" name="control" />
+        <input type="radio" id="stamp_control-7" name="control" />
+
+        <img
+          class="slide_stamp"
+          src="assets/images/chineseCupid_image/chineseCupid_stamp/chineseCupid-stamp-01.jpg"
+          alt="chineseCupid-stamp-01"
+        />
+        <img
+          class="slide_stamp"
+          src="assets/images/chineseCupid_image/chineseCupid_stamp/chineseCupid-stamp-02.jpg"
+          alt="chineseCupid-stamp-02"
+        />
+        <img
+          class="slide_stamp"
+          src="assets/images/chineseCupid_image/chineseCupid_stamp/chineseCupid-stamp-03.jpg"
+          alt="chineseCupid-stamp-03"
+        />
+        <img
+          class="slide_stamp"
+          src="assets/images/chineseCupid_image/chineseCupid_stamp/chineseCupid-stamp-04.jpg"
+          alt="chineseCupid-stamp-04"
+        />
+        <img
+          class="slide_stamp"
+          src="assets/images/chineseCupid_image/chineseCupid_stamp/chineseCupid-stamp-05.jpg"
+          alt="chineseCupid-stamp-05"
+        />
+        <img
+          class="slide_stamp"
+          src="assets/images/chineseCupid_image/chineseCupid_stamp/chineseCupid-stamp-06.jpg"
+          alt="chineseCupid-stamp-06"
+        />
+        <img
+          class="slide_stamp"
+          src="assets/images/chineseCupid_image/chineseCupid_stamp/chineseCupid-stamp-07.jpg"
+          alt="chineseCupid-stamp-07"
+        />
+
+        <div class="stamp_controls-visible">
+          <label for="stamp_control-1"></label>
+          <label for="stamp_control-2"></label>
+          <label for="stamp_control-3"></label>
+          <label for="stamp_control-4"></label>
+          <label for="stamp_control-5"></label>
+          <label for="stamp_control-6"></label>
+          <label for="stamp_control-7"></label>
+        </div>
+      </ul>
+
+      <ul class="main_word">
+        <p class="main_word_title">台北市で最も有名な月下老人</p>
+        <p class="main_word_text">
+          　台湾では、恋は大学生の必修科目の一つだという通説がある。そして、二年生のクリスマスまでに、付き合う人が見つけなければ、大学を卒業するまで恋人が絶対にできないという呪いに近い都市伝説もある。台北の大学生はまだどこにいるか知らない恋人に出会って大学卒業まで恋人ができない苦境を乗り越えるため、霞海城隍廟の月下老人を絶対に参拝に行くのよ。<br />　霞海城隍廟の月下老人は有名だけど、他の神様もおられる。このお寺の主神は城隍爺だし、参拝の順序は城隍爺がおられる左側の殿からなのだ。そして、参拝の前にお供え物の準備は重要だ。お供え物は誠意や敬意を表現するものだけではなく、お供え物のタイプは、月下老人があなたの恋を助けるかどうか関係のあるものなんだよ。（これは冗談だ）お供え物は大抵甘い物だ。例えば、チョコレートとか有名なお菓子とかはいい。お供え物を準備するには、お寺の前や近くに乾物を売っている店で販売されている月下老人のための組み合わせをお供え物にするのもいい。<br />　もっとも重要なのは、望んでいる恋人の特徴を詳しく月下老人に教えることだ。基本的には身長や仕事や性格など、もっと詳しい特徴として、ヘアスタイルや左利きなどでも言ってみてください。だが、より多くの条件を言えば完璧な彼氏を得られるわけではない。条件が厳し過ぎると、月下老人も仕方なく手を上げるしかない。一番重要なのは、正しい交友の態度で人に付き合うことだ。
+        </p>
+      </ul>
+
+      <ul class="main_picture">
+        <img
+          src="assets/images/chineseCupid_image/chineseCupid_picture/chineseCupid_picture-01.JPG"
+          alt="chinese_picture-01"
+        />
+        <img
+          src="assets/images/chineseCupid_image/chineseCupid_picture/chineseCupid_picture-02.JPG"
+          alt="chinese_picture-02"
+        />
+        <img
+          src="assets/images/chineseCupid_image/chineseCupid_picture/chineseCupid_picture-03.JPG"
+          alt="chinese_picture-03"
+        />
+      </ul>
+    </main>
+
+    <footer>
+      <div>© 2022　110年度　淡江大学日本語文学系卒業制作</div>
+    </footer>
+
+    <script src="assets/javascript/index_javascript.js"></script>
+    <script src="assets/javascript/national_palace_museum_javascript.js"></script>
+    <script></script>
+  </body>
+</html>
